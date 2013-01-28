@@ -1,0 +1,120 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+header, footer
+{
+	padding:1em;
+	font-family:"Courier New", Courier, monospace;
+	color:white;
+	background-color:#9dbede;
+	min-height:45px;
+	display:block;
+	border:0px solid #6699cc;
+}
+
+header
+{
+	border-bottom-width:2px;
+}
+
+footer
+{
+	border-top-width:2px;
+}
+
+h1, h2
+{
+	display:inline;
+	color:#FEFEF;
+	font-weight:normal;
+}
+
+#middle
+{
+	height:500px;	
+	background-color: #6699cc;
+}
+
+a:active, a:visited
+{
+	color:white;	
+}
+
+.attribution
+{
+	display:block;	
+}
+
+#attributions
+{
+	float:left;	
+}
+
+#controls
+{
+	float:right;	
+}
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
